@@ -1,9 +1,41 @@
-import React from 'react'
+import {
+  Box,
+  Button,
+  Card,
+  CardActions,
+  CardContent,
+  CardMedia,
+  Typography,
+} from "@mui/material";
 
 const MuiCard = () => {
   return (
-    <div>MuiCard</div>
-  )
-}
+    <Box width={"320px"}>
+      <Card>
+        <CardMedia
+          component={"img"}
+          height="140"
+          image="https://source.unsplash.com/random"
+          alt="unsplash image"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component={"div"}>
+            React
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+            laudantium nihil animi blanditiis minus nisi tenetur voluptas eius
+            corporis itaque, sint aut cupiditate excepturi quidem iure
+            praesentium odio? Recusandae, distinctio.
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Button size="small">Share</Button>
+          <Button size="small">Learn more</Button>
+        </CardActions>
+      </Card>
+    </Box>
+  );
+};
 
-export default MuiCard
+export default MuiCard;
