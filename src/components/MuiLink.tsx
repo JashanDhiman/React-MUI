@@ -1,9 +1,16 @@
-import React from 'react'
+import { Link, Stack, Typography } from "@mui/material";
 
 const MuiLink = () => {
   return (
-    <div>MuiLink</div>
-  )
-}
+    <Stack spacing={2} direction="row" m={4}>
+      <Link href="#fa">LInk</Link>
+      <Typography variant="h6">
+        <Link href="#fa" color={"secondary"} underline="none">
+          Secondary
+        </Link>
+      </Typography>
+    </Stack>
+  );
+};
 
-export default MuiLink
+export default MuiLink;
