@@ -16,7 +16,8 @@ import "./App.css";
 //import MuiNavBar from "./components/MuiNavBar";
 //import MuiLink from "./components/MuiLink";
 //import MuiBreadCrumbs from "./components/MuiBreadcrumbs";
-import MuiDrawer from "./components/MuiDrawer";
+//import MuiDrawer from "./components/MuiDrawer";
+import { MuiSpeedDial } from "./components/MuiSpeedDial";
 // import Rough from "./components/Rough";
 
 function App() {
@@ -39,7 +40,8 @@ function App() {
       {/*<MuiNavBar />*/}
       {/*<MuiLink />*/}
       {/*<MuiBreadCrumbs />*/}
-      <MuiDrawer />
+      {/*<MuiDrawer />*/}
+      <MuiSpeedDial />
       {/* <Rough /> */}
     </div>
   );
