@@ -22,7 +22,9 @@ import "./App.css";
 //import MuiAvatar from "./components/MuiAvatar";
 //import MuiBadge from "./components/MuiBadge";
 //import MuiList from "./components/MuiList";
-import MuiChips from "./components/MuiChips";
+//import MuiChips from "./components/MuiChips";
+//import MuiToolTip from "./components/MuiToolTip";
+import MuiTable from "./components/MuiTable";
 // import Rough from "./components/Rough";
 
 function App() {
@@ -51,7 +53,9 @@ function App() {
       {/*<MuiAvatar />*/}
       {/*<MuiBadge />*/}
       {/*<MuiList />*/}
-      <MuiChips />
+      {/*<MuiChips />*/}
+      {/*<MuiToolTip />*/}
+      <MuiTable />
       {/* <Rough /> */}
     </div>
   );
