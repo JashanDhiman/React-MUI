@@ -27,7 +27,9 @@ import "./App.css";
 //import MuiTable from "./components/MuiTable";
 //import MuiAlert from "./components/MuiAlert";
 //import MuiSnackBar from "./components/MuiSnackBar";
-import MuiDialog from "./components/MuiDialog";
+//import MuiDialog from "./components/MuiDialog";
+//import MuiProgress from "./components/MuiProgress";
+import MuiSkeleton from "./components/MuiSkeleton";
 // import Rough from "./components/Rough";
 
 function App() {
@@ -61,7 +63,9 @@ function App() {
       {/*<MuiTable />*/}
       {/*<MuiAlert />*/}
       {/*<MuiSnackBar />*/}
-      <MuiDialog />
+      {/*<MuiDialog />*/}
+      {/*<MuiProgress />*/}
+      <MuiSkeleton />
       {/* <Rough /> */}
     </div>
   );
