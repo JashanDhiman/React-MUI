@@ -31,7 +31,8 @@ import "./App.css";
 //import MuiProgress from "./components/MuiProgress";
 //import MuiSkeleton from "./components/MuiSkeleton";
 //import MuiTabs from "./components/MuiTabs";
-import MuiTimeline from "./components/Timeline";
+//import MuiTimeline from "./components/Timeline";
+import MuiMasonry from "./components/MuiMasonry";
 // import Rough from "./components/Rough";
 
 function App() {
@@ -69,7 +70,8 @@ function App() {
       {/*<MuiProgress />*/}
       {/*<MuiSkeleton />*/}
       {/*<MuiTabs />*/}
-      <MuiTimeline />
+      {/*<MuiTimeline />*/}
+      <MuiMasonry />
       {/* <Rough /> */}
     </div>
   );
